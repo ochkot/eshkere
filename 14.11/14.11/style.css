@@ -1,0 +1,49 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.virsraksts{
+    font-size: 48px;
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputLabel{
+    color: #9D97FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.inputlauks{
+    height: 60px;
+    border: 2px solid #797979;
+    border-radius: 10px;
+}
+.checkbox{
+    height: 28px;
+    width: 20px;
+}
+.rememberme{
+    font-size: 20px;
+    font-weight: bold;
+    color: #7a7a7a;
+}
